@@ -3,7 +3,7 @@ To run this project, you will need installed: Composer, php, node, mysql
 to launch this project:
 
 1. Clone repository
-2. Run composer install, npm install comands
+2. Run composer install comand
 3. Rename .env.example to .env
 4. Run php artisan key:generate
 5. Create database mysql
