@@ -32,5 +32,17 @@
         </div>
     </div>
 </div>
+<script>
+    var menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px"
+
+    function toggleMenu() {
+        if (menuList.style.maxHeight === "0px") {
+            menuList.style.maxHeight = "400px";
+        } else {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+</script>
 </body>
 </html>
