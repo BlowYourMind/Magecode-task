@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css"/>
-
 </head>
 <body>
 <div class="container">
@@ -29,36 +28,9 @@
     </div>
     <div class="row">
         <div class="col-1">
-            <h2>Digital</h2>
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum
-                retrum metus at enim congue scelerisque. Sed suscipit metu
-            <p>non iaculis semper sonsectetur adipiscing elit.</p>
-            <button type="button" class="learn-more-button">
-                learn more
-            </button>
+            <h2>contact</h2>
         </div>
-        <div class="col-2">
-            <img class="main-image" src="images/main-page-image.jpg" alt="main page image"></div>
     </div>
 </div>
-</div>
-@if(session()->has('success'))
-    <div class="successful-registration-message">
-        <p> {{session()->get('success')}}</p>
-    </div>
-@endif
-<script>
-    var menuList = document.getElementById("menuList")
-    menuList.style.maxHeight = "0px"
-
-    function toggleMenu() {
-        if (menuList.style.maxHeight === "0px") {
-            menuList.style.maxHeight = "400px";
-        } else {
-            menuList.style.maxHeight = "0px";
-        }
-    }
-</script>
 </body>
 </html>

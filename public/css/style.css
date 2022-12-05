@@ -134,6 +134,73 @@ nav ul li a {
     width: fit-content;
 }
 
+.successful-registration-message {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #6090d9;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+.register-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-form {
+    margin-top: 10px;
+}
+
+.register-label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.register-input {
+    border: 1px solid gray;
+    padding: 2px;
+    width: 95%;
+    margin-bottom: 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    background-color: #c6aeee;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.section1 {
+    padding: 300px 6px;
+}
+
+.label-input {
+    padding: 10px;
+}
+
+.register-button {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #b480f3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 @media only screen and  (max-width: 1110px) {
     nav ul {
         width: 100%;
@@ -159,4 +226,3 @@ nav ul li a {
         transition: 0.5s;
     }
 }
-
