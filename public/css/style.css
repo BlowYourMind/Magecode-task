@@ -1,5 +1,4 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
-
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +22,6 @@
 
 .logo {
     width: 120px;
-    cursor: pointer;
     margin: 30px 0;
 }
 
@@ -81,6 +79,7 @@ nav ul li a {
 
 .col-1 {
     flex-basis: 40%;
+    min-width: 300px;
     position: relative;
 }
 
@@ -131,7 +130,9 @@ nav ul li a {
 }
 
 .main-image {
-    width: fit-content;
+    width: 100%;
+    max-width: 830px;
+    height: auto;
 }
 
 .successful-registration-message {
@@ -201,7 +202,50 @@ main {
     cursor: pointer;
 }
 
-@media only screen and  (max-width: 1110px) {
+@media only screen and  (max-width: 1615px) {
+    .col-1 h2 {
+        font-size: 130px;
+    }
+
+    .col-1 h3 {
+        font-size: 78px;
+    }
+
+    .col-1 p {
+        font-size: 24px;
+    }
+
+    .main-image {
+        max-width: 750px;
+    }
+}
+
+@media only screen and  (max-width: 1430px) {
+    .col-1 h2 {
+        font-size: 110px;
+    }
+
+    .col-1 h3 {
+        font-size: 70px;
+
+    }
+}
+
+@media only screen and  (max-width: 1300px) {
+    .col-1 h2 {
+        font-size: 90px;
+    }
+
+    .col-1 h3 {
+        font-size: 50px;
+    }
+
+    .main-image {
+        max-width: 560px;
+    }
+}
+
+@media only screen and  (max-width: 1125px) {
     nav ul {
         width: 100%;
         background: #6090d9;
@@ -221,8 +265,28 @@ main {
         display: block;
     }
 
+    .main-image {
+        max-width: 500px;
+    }
+
     #menuList {
         overflow: hidden;
         transition: 0.5s;
+    }
+}
+
+@media only screen and  (max-width: 900px) {
+    .col-1 h2 {
+        font-size: 80px;
+    }
+
+    .col-1 h3 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and  (max-width: 750px) {
+    .main-image {
+        display: none;
     }
 }
