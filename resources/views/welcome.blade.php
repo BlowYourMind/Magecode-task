@@ -3,9 +3,9 @@
 @section('content')
     <div class="row">
         <div class="col-1">
-            <h2 id="heading1">Digital</h2>
-            <h3 id="heading2">Marketing</h3>
-            <p id="text1">Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum
+            <h2>Digital</h2>
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum
                 retrum metus at enim congue scelerisque. Sed suscipit metu
                 non iaculis semper sonsectetur adipiscing elit.
             </p>
@@ -20,5 +20,5 @@
         <div class="successful-registration-message">
             <p> {{session()->get('success')}}</p>
         </div>
-@endif
+    @endif
 @endsection
