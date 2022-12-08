@@ -1,4 +1,4 @@
-To run this project, you will need installed: Composer, php, node, mysql
+To run this project, you will need installed: Composer, php, mysql
 
 to launch this project:
 
